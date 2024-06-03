@@ -24,6 +24,7 @@ Check out the live demo [here](https://cohub-hugo.netlify.app/)
 
    ```cli
    cp -a themes/coHub/exampleSite/* .
+   mv config.toml hugo.toml
    ```
 
 3. Build your site with `hugo serve` and see the result at `http://localhost:1313/`.
